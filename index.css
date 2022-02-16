@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+h1 {
+  font-family: sans-serif;
+  color: #333;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: 'Acme', sans-serif;
+}
+
+span {
+  color: red;
+}
+
+body {
+  margin: 50px;
+}
+
+
+#container {
+  margin: 0 auto;
+  width: 500px;
+  height: 375px;
+  border: 10px solid #333;
+}
+
+#videoElement {
+  width: 500px;
+  height: 375px;
+  background-color: #666;
+}
+
+#stopButton {
+  width: 100px;
+  height: 30px;
+  background-color: lightcoral;
+  color: #fff;
+  font-size: 16px;
+  font-family: sans-serif;
+  border: none;
+  cursor: pointer;
+  transform: translate(32.5rem, 6rem);
+  border-radius: 5px;
+}
+
+#startButton {
+  width: 100px;
+  height: 30px;
+  background-color: lightgreen;
+  color: #fff;
+  font-size: 16px;
+  font-family: sans-serif;
+  border: none;
+  cursor: pointer;
+  transform: translate(39rem, 2rem);
+  border-radius: 5px;
+}
+
+#toogleButton {
+  width: 35px;
+  height: 35px;
+  background-color: black;
+  color: #fff;
+  font-size: 16px;
+  font-family: sans-serif;
+  border: none;
+  cursor: pointer;
+  transform: translate(39rem, 4rem);
+  border-radius: 50%;
+}
+
+#container img {
+  transform: translate(3.1rem, -19rem);
+  width: 400px;
+}
+
+
+@media screen and (max-device-width: 480px) {
+  
+  h1 {
+    font-size: 20px;
+  }
+
+  body {
+    margin: 15px;
+  }
+
+  #container {
+    width: 300px;
+    height: 225px;
+  }
+
+  #videoElement {
+    width: 300px;
+    height: 225px;
+  }
+
+  #startButton {
+    transform: translate(9rem, 1rem);
+  }
+
+  #stopButton {
+    transform: translate(2.6rem, 4rem);
+  }
+}
